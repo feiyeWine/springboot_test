@@ -1,0 +1,7 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/spring_mybatis
+    name: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver

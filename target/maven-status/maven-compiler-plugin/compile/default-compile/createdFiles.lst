@@ -1,0 +1,5 @@
+com\yin\controller\UsersController.class
+com\yin\service\UsersService.class
+com\yin\model\UserInfo.class
+com\yin\dao\UserInfoSqlProvider.class
+com\yin\dao\UserInfoMapper.class
