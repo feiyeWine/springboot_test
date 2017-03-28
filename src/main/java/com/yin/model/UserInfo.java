@@ -1,11 +1,20 @@
 package com.yin.model;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+
+@JsonAutoDetect
 public class UserInfo {
     private Integer id;
 
     private String name;
 
     private String password;
+
+    @Override
+    public String toString() {
+
+        return "id:" + this.getId() + "name:" + this.getName() + "password:" + this.getPassword();
+    }
 
     public Integer getId() {
         return id;
