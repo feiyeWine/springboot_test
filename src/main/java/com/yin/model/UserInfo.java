@@ -12,8 +12,7 @@ public class UserInfo {
 
     @Override
     public String toString() {
-
-        return "id:" + this.getId() + "name:" + this.getName() + "password:" + this.getPassword();
+        return "id:" + this.getId() + ",name:" + this.getName() + ",password:" + this.getPassword();
     }
 
     public Integer getId() {
