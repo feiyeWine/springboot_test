@@ -1,14 +1,23 @@
 package com.yin.model;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonAutoDetect
+import java.util.Date;
+
+/**
+ *jackson注解
+ */
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class UserInfo {
     private Integer id;
 
     private String name;
 
     private String password;
+
+    private Date date;
 
     @Override
     public String toString() {
